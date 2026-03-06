@@ -1,0 +1,22 @@
+model: voyager
+
+# 模型根目录（使用你提供的路径）
+runs_root: /data4/fanguoxin/WorldCache/models/HunyuanWorld-Voyager
+
+# 输出视频分辨率（根据 Voyager 默认配置）
+resolution: [720, 1280]  # Height x Width
+
+# 生成类型（Voyager 是图像到视频模型）
+generate_type: i2v
+
+# 视频参数
+frames: 49    # Voyager 默认生成 49 帧（4n+1 格式）
+fps: 24       # 帧率 24fps
+
+# HERO 加速配置
+hero_acceleration:
+  enable_hero: true  # 是否启用 HERO 加速
+  hero_M: 2           # 时间步间隔 (timestep interval)
+  hero_K: 30          # 分层阈值 (layer threshold, 前K层使用refresh)
+  hero_R: 0.5         # patch采样比例 (patch sampling ratio)
+  hero_logging: true  # 是否启用加速日志打印

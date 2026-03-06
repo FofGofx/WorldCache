@@ -1,0 +1,14 @@
+model: aether
+
+# 模型根目录（使用环境变量）
+runs_root: ${oc.env:MODEL_PATH}/Aether
+
+# 输出视频分辨率（Aether默认分辨率）
+resolution: [480, 720]  # Height x Width
+
+# 生成类型（Aether是图像到视频模型）
+generate_type: i2v
+
+# 视频参数
+frames: 41    # Aether默认生成41帧
+fps: 12       # 帧率12fps

@@ -1,0 +1,20 @@
+_target_: world_generators.aether.Aether
+
+model_name: aether
+generation_type: i2v
+
+# Paths
+aether_root: ${oc.env:MODEL_PATH}/Aether
+cogvideox_pretrained_model_name_or_path: THUDM/CogVideoX-5b-I2V
+aether_pretrained_model_name_or_path: AetherWorldModel/AetherV1
+
+# Generation parameters
+resolution: [480, 720]  # Height x Width
+frames: 41
+fps: 12
+
+# Inference parameters
+num_inference_steps: 50
+guidance_scale: 3.0
+use_dynamic_cfg: true
+seed: 42

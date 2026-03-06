@@ -1,0 +1,16 @@
+torch==2.3.1
+torchvision==0.18.1
+numpy==1.26.1
+Pillow
+scipy
+huggingface_hub
+einops
+safetensors
+opencv-python
+pyexr
+mmengine
+timm
+imageio
+trimesh
+transformers==4.49
+git+https://github.com/EasternJournalist/utils3d.git@c5daf6f6c244d251f252102d09e9b7bcef791a38

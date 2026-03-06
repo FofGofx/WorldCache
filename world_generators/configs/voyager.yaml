@@ -1,0 +1,29 @@
+# world_generators/configs/voyager.yaml
+_target_: world_generators.voyager.Voyager
+
+model_name: voyager
+generation_type: i2v
+
+# Paths
+voyager_root: ${oc.env:MODEL_PATH}/HunyuanWorld-Voyager
+model_base: ${oc.env:MODEL_PATH}/HunyuanWorld-Voyager/ckpts
+
+# Generation parameters
+resolution: [512, 768]
+frames: 49
+fps: 8
+
+# Inference parameters
+infer_steps: 50
+cfg_scale: 6.0
+embedded_cfg_scale: 6.0
+flow_shift: 7.0
+seed: 0
+use_cpu_offload: true
+
+# HERO acceleration parameters
+enable_hero: true
+hero_M: 2
+hero_K: 30
+hero_R: 0.5
+hero_logging: true
