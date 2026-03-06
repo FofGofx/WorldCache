@@ -15,7 +15,7 @@ We propose **WorldCache**, a caching framework tailored to diffusion world model
 ## 🔨 Installation
 
 1. **WorldScore**  
-   Follow [WorldScore](https://github.com/haoyi-duan/WorldScore.git) to download the video world model evaluation dataset and code, and configure the evaluation environment. We recommend first running and verifying the WorldScore codebase, then migrating our adaptations for the Voyager and Aether models on WorldScore. The WorldScore-related code and adaptations in this repo live under `worldscore/`.
+   Follow [WorldScore](https://github.com/haoyi-duan/WorldScore.git) to download the video world model evaluation dataset and code, and configure the evaluation environment. We recommend first running and verifying the WorldScore codebase, then migrating our adaptations for the Voyager and Aether models on WorldScore.
 
 2. **Voyager**  
    Follow [HunyuanWorld-Voyager](https://github.com/Tencent-Hunyuan/HunyuanWorld-Voyager.git) to set up the Voyager model environment, and place the code at **`models/HunyuanWorld-Voyager`**.
@@ -58,16 +58,6 @@ Example:
 ```bash
 bash scripts/run_aether_with_worldcache.sh 0 0.20 0.80 2 0.2
 ```
-
-**Arguments:**
-
-| Argument | Description |
-|----------|-------------|
-| `GPU_ID` | GPU index to use |
-| `percentile_stable` | WorldCache stable percentile (e.g. 0.30) |
-| `percentile_chaotic` | WorldCache chaotic percentile (e.g. 0.70) |
-| `n_max` | WorldCache `n_max` (e.g. 6) |
-| `error_threshold` | WorldCache error threshold (e.g. 1.0) |
 
 ## 👍 Acknowledgements
 
