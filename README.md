@@ -4,6 +4,16 @@
 <a href='https://arxiv.org/abs/2603.06331'><img src='https://img.shields.io/badge/Paper-arXiv-red'></a>
 </p>
 
+<div align="center">
+Weilun Feng* , Guoxin Fan* , Haotong Qin* , Chuanguang Yang† , Mingqiang Wu, Yuqi Li, Xiangqi Li, Zhulin An† , Libo Huang, Dingrui Wang, Longlong Liao, Michele Magno, Yongjun Xu
+</div>
+
+<sup>*</sup>Equal Contribution  <sup>†</sup>Corresponding Author
+
+<div align="center">
+1.Institute of Computing Technology, Chinese Academy of Sciences, 2.University of Chinese Academy of Sciences, 3.ETH Zürich, 4.City College of New York, City University of New York, USA, 5.Technical University of Munich, 6.Fuzhou University
+</div>
+
 <p align="center">
   <img src="assets/teaser.png" width="90%"/>
 </p>
