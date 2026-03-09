@@ -5,7 +5,7 @@
 </p>
 
 <div align="center">
-Weilun Feng* , Guoxin Fan* , Haotong Qin* , Chuanguang Yang† , Mingqiang Wu, Yuqi Li, Xiangqi Li, Zhulin An† , Libo Huang, Dingrui Wang, Longlong Liao, Michele Magno, Yongjun Xu
+Weilun Feng<sup>*1,2</sup>, Guoxin Fan<sup>*1,2</sup>, Haotong Qin<sup>*3</sup>, Chuanguang Yang<sup>†1</sup>, Mingqiang Wu<sup>1,2</sup>, Yuqi Li<sup>4</sup>, Xiangqi Li<sup>1,2</sup>, Zhulin An<sup>†1</sup>, Libo Huang<sup>1</sup>, Dingrui Wang<sup>5</sup>, Longlong Liao<sup>6</sup>, Michele Magno<sup>3</sup>, Yongjun Xu<sup>1</sup>
 </div>
 
 <sup>*</sup>Equal Contribution  <sup>†</sup>Corresponding Author
