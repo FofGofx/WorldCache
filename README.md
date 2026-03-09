@@ -1,6 +1,6 @@
 # WorldCache: Accelerating World Models for Free via Heterogeneous Token Caching
 
-<p>
+<p align="center">
 <a href='https://arxiv.org/abs/2603.06331'><img src='https://img.shields.io/badge/Paper-arXiv-red'></a>
 </p>
 
