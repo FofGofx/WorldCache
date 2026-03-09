@@ -1,5 +1,9 @@
 # WorldCache: Accelerating World Models for Free via Heterogeneous Token Caching
 
+<p>
+<a href='https://arxiv.org/abs/2603.06331'><img src='https://img.shields.io/badge/Paper-arXiv-red'></a>
+</p>
+
 <p align="center">
   <img src="assets/teaser.png" width="90%"/>
 </p>
@@ -10,7 +14,7 @@ We propose **WorldCache**, a caching framework tailored to diffusion world model
 
 ## 🔥 News
 
-- **2026/03** We released the code.
+- **2026/03** Released the code and paper 🚀📄
 
 ## 🔨 Installation
 
@@ -23,13 +27,11 @@ We propose **WorldCache**, a caching framework tailored to diffusion world model
 3. **Aether**  
    Follow [Aether](https://github.com/InternRobotics/Aether.git) to set up the Aether model environment, and place the code at **`models/Aether`**.
 
-**Environment variables.** Scripts and configs rely on the following; set them before running:
+**Environment variables.** Before running any scripts, please make sure the following environment variables are properly set:
 
-| Variable | Description |
-|----------|-------------|
-| `WORLDSCORE_PATH` | Root path of this repo / WorldScore (see `config/base_config.yaml`, `worldscore/benchmark/helpers/__init__.py`) |
-| `DATA_PATH` | Dataset root (e.g. directory containing `WorldScore-Dataset`; see `dataset_root` in base config) |
-| `MODEL_PATH` | Model root; must contain `Aether` and `HunyuanWorld-Voyager` (see `config/model_configs/aether.yaml`, `world_generators/configs/voyager.yaml`) |
+- `WORLDSCORE_PATH` — Root path of this repo.
+- `DATA_PATH` — Root directory of the evaluation dataset.
+- `MODEL_PATH` — Root directory of the models; it should contain both `Aether` and `HunyuanWorld-Voyager`.
 
 ## 🚀 Inference
 
@@ -68,12 +70,13 @@ Our work is built upon [WorldScore](https://github.com/haoyi-duan/WorldScore.git
 If you find this work useful in your research, please consider citing:
 
 ```bibtex
-@article{worldcache2026,
-  title     = {WorldCache: Accelerating World Models for Free via Heterogeneous Token Caching},
-  author    = {...},
-  year      = {2026},
-  ...
+@misc{feng2026worldcacheacceleratingworldmodels,
+      title={WorldCache: Accelerating World Models for Free via Heterogeneous Token Caching}, 
+      author={Weilun Feng and Guoxin Fan and Haotong Qin and Chuanguang Yang and Mingqiang Wu and Yuqi Li and Xiangqi Li and Zhulin An and Libo Huang and Dingrui Wang and Longlong Liao and Michele Magno and Yongjun Xu},
+      year={2026},
+      eprint={2603.06331},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2603.06331}, 
 }
 ```
-
-(BibTeX / paper link coming soon.)
