@@ -4,7 +4,6 @@
 #
 # Examples:
 #   ./run_voyager_with_worldcache.sh 0 0.30 0.70 6 1.0
-#   ./run_voyager_with_worldcache.sh 1 0.20 0.80 4 0.5
 
 # 激活 conda 环境
 eval "$(conda shell.bash hook)"

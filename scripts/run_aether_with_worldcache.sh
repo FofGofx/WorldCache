@@ -3,8 +3,7 @@
 # 用法: ./run_aether_with_worldcache.sh <GPU_ID> <percentile_stable> <percentile_chaotic> <n_max> <error_threshold>
 #
 # 示例:
-#   ./run_aether_with_worldcache.sh 0 0.20 0.80 2 0.2
-#   ./run_aether_with_worldcache.sh 1 0.15 0.85 3 0.15
+#   ./run_aether_with_worldcache.sh 0 0.30 0.60 2 0.2
 
 # 激活 conda 环境
 eval "$(conda shell.bash hook)"

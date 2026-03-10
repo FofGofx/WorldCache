@@ -68,7 +68,7 @@ bash scripts/run_aether_with_worldcache.sh <GPU_ID> <percentile_stable> <percent
 Example:
 
 ```bash
-bash scripts/run_aether_with_worldcache.sh 0 0.20 0.80 2 0.2
+bash scripts/run_aether_with_worldcache.sh 0 0.30 0.60 2 0.2
 ```
 
 ## 👍 Acknowledgements

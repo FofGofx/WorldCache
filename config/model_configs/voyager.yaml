@@ -13,10 +13,3 @@ generate_type: i2v
 frames: 49    # Voyager 默认生成 49 帧（4n+1 格式）
 fps: 24       # 帧率 24fps
 
-# HERO 加速配置
-hero_acceleration:
-  enable_hero: true  # 是否启用 HERO 加速
-  hero_M: 2           # 时间步间隔 (timestep interval)
-  hero_K: 30          # 分层阈值 (layer threshold, 前K层使用refresh)
-  hero_R: 0.5         # patch采样比例 (patch sampling ratio)
-  hero_logging: true  # 是否启用加速日志打印

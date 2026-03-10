@@ -20,10 +20,3 @@ embedded_cfg_scale: 6.0
 flow_shift: 7.0
 seed: 0
 use_cpu_offload: true
-
-# HERO acceleration parameters
-enable_hero: true
-hero_M: 2
-hero_K: 30
-hero_R: 0.5
-hero_logging: true

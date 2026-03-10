@@ -54,8 +54,8 @@ def cache_init(num_steps, output_dir=None, mode=None, worldcache_config=None):
         else:
             # Default Worldcache configuration (backward compatible)
             cache_dic['worldcache_config'] = {
-                'percentile_stable': 0.30,      # 稳态组阈值（20%分位数）
-                'percentile_chaotic': 0.60,      # 混沌组阈值（80%分位数）
+                'percentile_stable': 0.30,      # 稳态组阈值
+                'percentile_chaotic': 0.60,      # 混沌组阈值
                 'n_max': 2,                     # 最大预测步数
                 'error_threshold': 0.2,          # 误差阈值
                 'eps': 1e-8,                    # 数值稳定性
