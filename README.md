@@ -1,4 +1,4 @@
-# WorldCache: Accelerating World Models for Free via Heterogeneous Token Caching
+﻿# WorldCache: Accelerating World Models for Free via Heterogeneous Token Caching
 
 <p align="center">
 <a href='https://arxiv.org/abs/2603.06331'><img src='https://img.shields.io/badge/Paper-arXiv-red'></a>
@@ -24,7 +24,8 @@ We propose **WorldCache**, a caching framework tailored to diffusion world model
 
 ## 🔥 News
 
-- **2026/03** Released the code and paper 🚀📄
+- **2026/05** Paper accepted by ICML 2026 🎉🎉🎉
+- **2026/03** Released the code and paper 🚀🚀🚀
 
 ## 🔨 Installation
 
