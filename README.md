@@ -24,6 +24,7 @@ We propose **WorldCache**, a caching framework tailored to diffusion world model
 
 ## 🔥 News
 
+- **2026/05** WorldCache is now adapted to **LingBot-World-Base (Cam)** ✨✨✨
 - **2026/05** Paper accepted by ICML 2026 🎉🎉🎉
 - **2026/03** Released the code and paper 🚀🚀🚀
 
@@ -38,11 +39,14 @@ We propose **WorldCache**, a caching framework tailored to diffusion world model
 3. **Aether**  
    Follow [Aether](https://github.com/InternRobotics/Aether.git) to set up the Aether model environment, and place the code at **`models/Aether`**.
 
+4. **LingBot-World-Base (Cam)**  
+   Follow [lingbot-world](https://github.com/robbyant/lingbot-world) to set up the LingBot-World environment, and place the code at **`models/lingbot-world`**.
+
 **Environment variables.** Before running any scripts, please make sure the following environment variables are properly set:
 
 - `WORLDSCORE_PATH` — Root path of this repo.
 - `DATA_PATH` — Root directory of the evaluation dataset.
-- `MODEL_PATH` — Root directory of the models; it should contain both `Aether` and `HunyuanWorld-Voyager`.
+- `MODEL_PATH` — Root directory of the models; it should contain `Aether`, `HunyuanWorld-Voyager`, and `lingbot-world`.
 
 ## 🚀 Inference
 
@@ -72,9 +76,51 @@ Example:
 bash scripts/run_aether_with_worldcache.sh 0 0.30 0.60 2 0.2
 ```
 
+**LingBot-World-Base (Cam):**
+
+```bash
+WORLDCACHE_MODE=worldcache bash scripts/run_lingbot_with_worldcache.sh <GPU_ID> <percentile_stable> <percentile_chaotic> <n_max> <error_threshold>
+```
+
+Example:
+
+```bash
+WORLDCACHE_MODE=worldcache bash scripts/run_lingbot_with_worldcache.sh 6 0.30 0.60 6 0.6
+```
+
+## 🎬 Demo
+
+### LingBot-World-Base (Cam)
+
+<table>
+  <tr>
+    <th>Case</th>
+    <th>Original</th>
+    <th>WorldCache</th>
+  </tr>
+  <tr>
+    <td>03<br/>SpeedUp: <b>1x vs 2.25x</b></td>
+    <td>
+      <video src="models/lingbot-world/outputs/original_03/i2v-A14B_480x832_stepsdefault_framesdefault_original.mp4" controls muted width="360"></video>
+    </td>
+    <td>
+      <video src="models/lingbot-world/outputs/worldcache_p30_c60_n6_e60_03/i2v-A14B_480x832_stepsdefault_framesdefault_worldcache_p30_c60_n6_e60.mp4" controls muted width="360"></video>
+    </td>
+  </tr>
+  <tr>
+    <td>04<br/>SpeedUp: <b>1x vs 2.22x</b></td>
+    <td>
+      <video src="models/lingbot-world/outputs/original_04/i2v-A14B_480x832_stepsdefault_framesdefault_original.mp4" controls muted width="360"></video>
+    </td>
+    <td>
+      <video src="models/lingbot-world/outputs/worldcache_p30_c60_n6_e60_04/i2v-A14B_480x832_stepsdefault_framesdefault_worldcache_p30_c60_n6_e60.mp4" controls muted width="360"></video>
+    </td>
+  </tr>
+</table>
+
 ## 👍 Acknowledgements
 
-Our work is built upon [WorldScore](https://github.com/haoyi-duan/WorldScore.git), [HunyuanWorld-Voyager](https://github.com/Tencent-Hunyuan/HunyuanWorld-Voyager.git), [Aether](https://github.com/InternRobotics/Aether.git), [TaylorSeer](https://github.com/Shenyi-Z/TaylorSeer.git), [EasyCache](https://github.com/H-EmbodVis/EasyCache.git), [HiCache](https://github.com/fenglang918/HiCache.git), and others. We thank the authors for open-sourcing their code and for their contributions to the community.
+Our work is built upon [WorldScore](https://github.com/haoyi-duan/WorldScore.git), [HunyuanWorld-Voyager](https://github.com/Tencent-Hunyuan/HunyuanWorld-Voyager.git), [Aether](https://github.com/InternRobotics/Aether.git), [lingbot-world](https://github.com/robbyant/lingbot-world), [TaylorSeer](https://github.com/Shenyi-Z/TaylorSeer.git), [EasyCache](https://github.com/H-EmbodVis/EasyCache.git), [HiCache](https://github.com/fenglang918/HiCache.git), and others. We thank the authors for open-sourcing their code and for their contributions to the community.
 
 ## 📝 Citation
 
