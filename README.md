@@ -101,19 +101,19 @@ WORLDCACHE_MODE=worldcache bash scripts/run_lingbot_with_worldcache.sh 6 0.30 0.
   <tr>
     <td>03<br/>SpeedUp: <b>1x vs 2.25x</b></td>
     <td>
-      <video src="models/lingbot-world/outputs/original_03/i2v-A14B_480x832_stepsdefault_framesdefault_original.mp4" controls muted width="360"></video>
+      <video src="https://raw.githubusercontent.com/FofGofx/WorldCache/main/models/lingbot-world/outputs/original_03/i2v-A14B_480x832_stepsdefault_framesdefault_original.mp4" controls muted width="360"></video>
     </td>
     <td>
-      <video src="models/lingbot-world/outputs/worldcache_p30_c60_n6_e60_03/i2v-A14B_480x832_stepsdefault_framesdefault_worldcache_p30_c60_n6_e60.mp4" controls muted width="360"></video>
+      <video src="https://raw.githubusercontent.com/FofGofx/WorldCache/main/models/lingbot-world/outputs/worldcache_p30_c60_n6_e60_03/i2v-A14B_480x832_stepsdefault_framesdefault_worldcache_p30_c60_n6_e60.mp4" controls muted width="360"></video>
     </td>
   </tr>
   <tr>
     <td>04<br/>SpeedUp: <b>1x vs 2.22x</b></td>
     <td>
-      <video src="models/lingbot-world/outputs/original_04/i2v-A14B_480x832_stepsdefault_framesdefault_original.mp4" controls muted width="360"></video>
+      <video src="https://raw.githubusercontent.com/FofGofx/WorldCache/main/models/lingbot-world/outputs/original_04/i2v-A14B_480x832_stepsdefault_framesdefault_original.mp4" controls muted width="360"></video>
     </td>
     <td>
-      <video src="models/lingbot-world/outputs/worldcache_p30_c60_n6_e60_04/i2v-A14B_480x832_stepsdefault_framesdefault_worldcache_p30_c60_n6_e60.mp4" controls muted width="360"></video>
+      <video src="https://raw.githubusercontent.com/FofGofx/WorldCache/main/models/lingbot-world/outputs/worldcache_p30_c60_n6_e60_04/i2v-A14B_480x832_stepsdefault_framesdefault_worldcache_p30_c60_n6_e60.mp4" controls muted width="360"></video>
     </td>
   </tr>
 </table>
