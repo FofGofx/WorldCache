@@ -92,8 +92,6 @@ WORLDCACHE_MODE=worldcache bash scripts/run_lingbot_with_worldcache.sh 6 0.30 0.
 
 ### LingBot-World-Base (Cam)
 
-GitHub does not render embedded repository videos in `README.md`, so the table below uses GIF previews. Click any preview to open the full MP4.
-
 <table>
   <tr>
     <th>Case</th>
@@ -101,37 +99,21 @@ GitHub does not render embedded repository videos in `README.md`, so the table b
     <th>WorldCache</th>
   </tr>
   <tr>
-    <td>03<br/>SpeedUp: <b>1x vs 2.25x</b></td>
+    <td>03<br/>SpeedUp: <b>1x VS 2.25x</b></td>
     <td>
-      <a href="./models/lingbot-world/outputs/original_03/i2v-A14B_480x832_stepsdefault_framesdefault_original.mp4">
-        <img src="assets/demo_original_03.gif" width="240" alt="Case 03 original preview"/>
-      </a>
-      <br/>
-      <sub><a href="./models/lingbot-world/outputs/original_03/i2v-A14B_480x832_stepsdefault_framesdefault_original.mp4">Open MP4</a></sub>
+      <img src="assets/demo_original_03.gif" width="240" alt="Case 03 original preview"/>
     </td>
     <td>
-      <a href="./models/lingbot-world/outputs/worldcache_p30_c60_n6_e60_03/i2v-A14B_480x832_stepsdefault_framesdefault_worldcache_p30_c60_n6_e60.mp4">
-        <img src="assets/demo_worldcache_03.gif" width="240" alt="Case 03 WorldCache preview"/>
-      </a>
-      <br/>
-      <sub><a href="./models/lingbot-world/outputs/worldcache_p30_c60_n6_e60_03/i2v-A14B_480x832_stepsdefault_framesdefault_worldcache_p30_c60_n6_e60.mp4">Open MP4</a></sub>
+      <img src="assets/demo_worldcache_03.gif" width="240" alt="Case 03 WorldCache preview"/>
     </td>
   </tr>
   <tr>
-    <td>04<br/>SpeedUp: <b>1x vs 2.22x</b></td>
+    <td>04<br/>SpeedUp: <b>1x VS 2.22x</b></td>
     <td>
-      <a href="./models/lingbot-world/outputs/original_04/i2v-A14B_480x832_stepsdefault_framesdefault_original.mp4">
-        <img src="assets/demo_original_04.gif" width="240" alt="Case 04 original preview"/>
-      </a>
-      <br/>
-      <sub><a href="./models/lingbot-world/outputs/original_04/i2v-A14B_480x832_stepsdefault_framesdefault_original.mp4">Open MP4</a></sub>
+      <img src="assets/demo_original_04.gif" width="240" alt="Case 04 original preview"/>
     </td>
     <td>
-      <a href="./models/lingbot-world/outputs/worldcache_p30_c60_n6_e60_04/i2v-A14B_480x832_stepsdefault_framesdefault_worldcache_p30_c60_n6_e60.mp4">
-        <img src="assets/demo_worldcache_04.gif" width="240" alt="Case 04 WorldCache preview"/>
-      </a>
-      <br/>
-      <sub><a href="./models/lingbot-world/outputs/worldcache_p30_c60_n6_e60_04/i2v-A14B_480x832_stepsdefault_framesdefault_worldcache_p30_c60_n6_e60.mp4">Open MP4</a></sub>
+      <img src="assets/demo_worldcache_04.gif" width="240" alt="Case 04 WorldCache preview"/>
     </td>
   </tr>
 </table>
