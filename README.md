@@ -24,6 +24,7 @@ We propose **WorldCache**, a caching framework tailored to diffusion world model
 
 ## 🔥 News
 
+- **[2026/07]** WorldCache is now available on [Papers with Code](https://paperswithcode.co/paper/2603.06331), under the [World Models](https://paperswithcode.co/tasks/world-models) task.
 - **2026/05** WorldCache is now adapted to **LingBot-World-Base (Cam)** ✨✨✨
 - **2026/05** Paper accepted by ICML 2026 🎉🎉🎉
 - **2026/03** Released the code and paper 🚀🚀🚀
